@@ -1,0 +1,269 @@
+/*GENERAL STYLES*/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    /*padding-top:50px;*/
+    background: lightgray;
+}
+
+/*footer info*/
+footer {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#logo {
+    padding: 2px;
+    height: 45px;
+    width: 55px;
+}
+
+
+/*APP STYLES*/
+
+#app-main {
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+
+/*LANDING PAGE STYLES*/
+#landing-main {
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: center;
+    background-image: url(https://unsplash.it/g/200/300/?random);
+    background-size: cover;
+    background-attachment: fixed;
+    border: 10px solid black;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+#landing-h1 {
+    padding-left: 70px;
+    padding-top: 100px;
+}
+
+#landing-h2 {
+    text-align: right;
+    padding-top: 180px;
+    padding-right: 110px;
+}
+
+
+/*TEA PAGE STYLES*/
+
+#about-page {
+
+    background-image: url(http://i.imgur.com/MGVOYGl.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    /*  border: 1px solid blue;*/
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: left;
+}
+
+
+/*about.js text styling*/
+#blackbox {
+    background-color: #1a1a1a;
+    width: auto;
+    height: auto;
+    opacity: 0.7;
+    padding-top: 15px;
+}
+
+#blackbox-text{
+        font-size: 15px;
+        text-indent: 25px;
+        margin: 2px;
+        padding: 15px;
+
+}
+
+#blackbox h1{
+    text-align: center;
+    font-size: 25px;
+    overflow-y:scroll;
+}
+
+.App {
+    text-align: center;
+}
+
+/*navbar styling*/
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: 2em;
+    color: white;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #439348;
+    border-bottom: 1px solid #439348;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand > span:hover,
+.navbar-default .navbar-brand > span:focus,
+.navbar-default .navbar-brand > .active > span,
+.navbar-default .navbar-brand > .active > span:hover,
+.navbar-default .navbar-brand > .active > span:focus {
+    color: white;
+    transition-delay: 2s;
+}
+
+.navbar-right li {
+    width: 150px;
+    text-align: center;
+}
+
+.navbar {
+    font-family: helvetica;
+    font-size: 20px;
+    background-color:
+    /*#DBB287*/
+    
+    black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+#cartIcon {
+    width: 20%;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+/*Tea.js page*/
+#black{
+  background-image: url("https://hd.unsplash.com/photo-1433891248364-3ce993ff0e92");
+ background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#green{
+  background-image: url("http://i68.tinypic.com/1549e74.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+#herbal{
+  background-image: url("http://i66.tinypic.com/2uf37k8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+
+#tea-grid h2{
+}
+
+.teaCol {
+  height: 100vh;
+}
+.arrUl{
+    list-style-type: none;
+    overflow: auto;
+}
+
+/*displaytea's fixed column css*/
+
+/* content styles */
+
+.teaColumns {
+overflow: visible;
+position: center;
+background-image: url("http://img.wallpaperfolder.com/f/5574BC310A55/tea-fields-images.jpg");
+}
+
+.panel-heading{
+    text-align: center;
+    margin: -2px;
+}
+
+.panel-body {
+    text-align: center;
+    background-size: cover;
+    height: 225px;
+}
+
+.btn-default {
+    width: fill;
+}
+
+
+/*single-tea item page*/
+
+.img-rounded {
+    size: auto;
+
+/*    padding-top: -15px;*/
+}
+
+.gap-right {
+    margin:25px;
+}
+
+.text {
+/*    border: 2px solid black;*/
+    padding: 25px;
+}
+
+.title{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.ingredients {
+/*    overflow: scroll;*/
+}
+
+.btn-primary {
+margin-left: 0;
+font-size: 20px;
+font-weight: bold;
+padding-top: 5px;
+border-radius: 1em;
+border: 2px solid black;
+align-items: center;
+}
+
+.div.text{
+    height: auto;
+}
+
